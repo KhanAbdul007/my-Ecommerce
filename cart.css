@@ -1,0 +1,81 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(235, 191, 219);
+    margin: 5px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image:url("https://media.istockphoto.com/id/1212679579/photo/mother-and-daughter-shopping-together-for-clothes-at-outdoor-street-market.jpg?s=2048x2048&w=is&k=20&c=SM8a_QWWvkEwiRFCMBiSgaZBd1KDkDEks2ZVDJ4th-Q=");
+background-repeat: no-repeat; 
+background-size: cover; 
+}
+.container{
+    height: auto;
+    width: 100%;
+    background-color: rgb(141, 164, 184);
+    padding: 5px;
+    margin: 10px;background-color: brown;
+}
+
+.img-prod{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: aqua;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.img{
+    height: 210px;
+    width: 210px;
+}
+.img img{
+    height: 200px;
+    width: 200px;
+}
+.product-details{
+    height: auto;
+    width: 40%;
+}
+.product-details p{
+    margin: 0px;
+}
+
+.btn button{
+   padding: 10px 10px;
+   border: none;
+   border-radius: 5px;
+   background-color: #007bff;
+   color: white;
+   cursor: pointer;
+   transition: background-color 0.3 ease;
+   margin: 10px;
+   
+}
+.btn{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+}
+.btn button:hover{
+background-color: #b30068;
+}
+
+h2{
+    height: 50px;
+    width: 50%;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid black;
+  
+   
+}
+
