@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             document.getElementById("addToCart").addEventListener("click", () => addToCart(selectedProduct));
             document.getElementById("backToHome").addEventListener("click", () => {
-                window.location.href = "home.html"; 
+                window.location.href = "index.html"; 
             });
         }
     }
