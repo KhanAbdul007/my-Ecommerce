@@ -50,7 +50,7 @@ function displayCart() {
          
         cartContent.appendChild(productDiv);
         document.getElementById("backToHome").addEventListener("click", () => {
-            window.location.href = "home.html"; 
+            window.location.href = "index.html"; 
         });
     });
 
